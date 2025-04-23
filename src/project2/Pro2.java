@@ -55,11 +55,11 @@ public class Pro2 {
 
     @Test(priority = 3)
     public void removeItemFromTheCart() throws InterruptedException {
-        // إزالة منتج معين
-        WebElement backPackRemoveButton = driver.findElement(By.id("remove-sauce-labs-backpack"));
+
+    	WebElement backPackRemoveButton = driver.findElement(By.id("remove-sauce-labs-backpack"));
         backPackRemoveButton.click();
 
-        // تحقق أن زر "Add to cart" رجع مكانه
+        
         WebElement addBackButton = driver.findElement(By.id("add-to-cart-sauce-labs-backpack"));
         Assert.assertTrue(addBackButton.isDisplayed(), "Remove failed - Add to cart button not visible!");
     }
