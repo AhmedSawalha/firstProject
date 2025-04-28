@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 public class Pro2 {
-//jnkjnjllkk
+
     WebDriver driver;
     String THEWEBSITE = "https://www.saucedemo.com/";
     String UserName = "standard_user";
